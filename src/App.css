@@ -1,0 +1,28 @@
+.App {
+  background-color: rgb(254, 236, 226);
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  min-height: 100vh;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Arial', sans-serif;
+}
+
+.logo-icon {
+  background: linear-gradient(135deg, #6e8efb, #a777e3);
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  white-space: nowrap;
+}
